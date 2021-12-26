@@ -36,3 +36,22 @@ I am constantly striving to develop my skills, am not afraid of difficult tasks 
   return cats.length;
 }
 ```
+***
+## Experience:
+### Courses:
+* HTML Academy (01.2021 - 07.2021)
+    * HTML и CSS. Professional HTML coding
+    * HTML и CSS. Adaptive HTML coding and automation
+    * JavaScript. Professional development of web interfaces
+* Udemy (07.2021 - 10.2021)
+    * Web-developer 2021
+    * JavaScript + React
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+### Projects:
+* [Cat Energy](https://github.com/Parxommm/632427-cat-energy-22)
+* [KeksoBooking](https://github.com/Parxommm/632427-keksobooking-23)
+* [React App](https://github.com/Parxommm/Staff-bonuses_app)
+***
+## Languages:
+* Russian - Native
+* English A1 (now I am studying English at A2 level at Streamline school)
