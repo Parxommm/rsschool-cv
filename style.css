@@ -49,10 +49,6 @@ body {
   margin-top: 40px;
 }
 
-.photo {
-
-}
-
 .my-photo {
   width: 200px;
   height: 200px;
@@ -106,3 +102,126 @@ body {
   font-weight: 400;
   color: #4F4F4F;
 }
+
+.summary {
+  display: flex;
+  margin-top: 50px;
+}
+
+.summary__title {
+  font-size: 28px;
+  min-width: 20%;
+}
+
+.summary__text {
+  font-size: 21px;
+  font-style: italic;
+  margin: 0;
+  border-left: 4px solid #F1BB1A;
+  padding-left: 30px;
+}
+
+.skills {
+  display: flex;
+  margin-top: 50px;
+}
+
+.skills__title {
+  font-size: 28px;
+  min-width: 20%;
+}
+
+.skills__list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills__item {
+  position: relative;
+  font-size: 21px;
+  font-style: italic;
+  padding-left: 34px;
+}
+
+.skills__item::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #F1BB1A;
+  top: 5px;
+  left: 0;
+}
+
+.code {
+  display: flex;
+  margin-top: 50px;
+}
+
+.code__title {
+  font-size: 28px;
+  min-width: 20%;
+}
+
+.code__text {
+  border-left: 4px solid #F1BB1A;
+  padding-left: 30px;
+}
+
+.task-title {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.task__link {
+  color: #242732;
+}
+
+.code pre {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.experience {
+  display: flex;
+  margin-top: 50px;
+}
+
+.experience__title {
+  font-size: 28px;
+  min-width: 20%;
+}
+
+.experience__list {
+  list-style: none;
+}
+
+.experience__item {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.courses__list {
+  list-style: none;
+}
+
+.courses__item,
+.projects__item,
+.education__text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.languages {
+  display: flex;
+  margin-top: 50px;
+}
+
+.languages__title {
+  font-size: 28px;
+  min-width: 20%;
+}
+

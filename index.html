@@ -19,9 +19,9 @@
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
           <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Code example</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Experience</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
       </nav>
       <section class="information">
@@ -32,7 +32,7 @@
           <h1 class="title">Evgeny Parkhomenko</h1>
           <h2 class="subtitle">Junior frontend developer</h2>
         </div>
-        <div class="contacts">
+        <div class="contacts" id="contacts">
           <ul class="contacts__list">
             <li class="contacts__item">Location: <a class="contacts__link" href="https://yandex.by/maps/157/minsk/?ll=27.561831%2C53.902284&pt=27.561831%2C53.902284&source=entity_search&z=11">Minsk, Belarus</a></li>
             <li class="contacts__item">Telegram: <a class="contacts__link" href="https://t.me/parxommm">@parxommm</a></li>
@@ -46,7 +46,101 @@
 
   <main class="main">
     <div class="container">
-      2
+      <section class="summary" id="summary">
+        <h2 class="title summary__title">About me:</h2>
+        <p class="summary__text">I am an active and purposeful person. After graduating from university, I worked at a factory as a simple worker and in a short time I became a manager with a good salary. But this job became boring to me and I began to look for self-development in another area. I am constantly striving to develop my skills, am not afraid of difficult tasks and learn new technologies, so I came to this course.</p>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="skills__title">Skills:</h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML, CSS</li>
+          <li class="skills__item">JavaScript</li>
+          <li class="skills__item">Gulp</li>
+          <li class="skills__item">Git, GitHub</li>
+          <li class="skills__item">Figma, Photoshop</li>
+        </ul>
+      </section>
+      <section class="code" id="code">
+        <h2 class="code__title">Code example:</h2>
+        <div class="code__text">
+          <h3 class="task-title"><a class="task__link" href="https://www.codewars.com/kata/513e08acc600c94f01000001">RGB To Hex Conversion</a></h3>
+          <pre>
+            function rgb(r, g, b) {
+              const toHex = (num) => {
+               if (num <= 0) {
+                 num = '00';
+               } else if (num > 255) {
+                 num = 'FF';
+               } else {
+                 num = num.toString(16).toUpperCase();
+               }
+               if (num.length === 1) {
+                 num = 0 + num;
+               }
+               return num;
+              }
+              r = toHex(r);
+              g = toHex(g);
+              b = toHex(b);
+              
+              return r + g + b;
+             }
+            </pre>
+          </div>
+      </section>
+      <section class="experience" id="experience">
+        <h2 class="experience__title">Experience:</h2>
+        <ul class="experience__list">
+          <li class="experience__item">
+            Courses:
+            <ul class="courses__list">
+              <li class="courses__item">
+                HTML Academy (01.2021 - 07.2021)
+                <ul class="academy__list">
+                  <li class="academy__item">HTML и CSS. Professional HTML coding</li>
+                  <li class="academy__item">HTML и CSS. Adaptive HTML coding and automation</li>
+                  <li class="academy__item">JavaScript. Professional development of web interfaces</li>
+                </ul>
+              </li>
+              <li class="courses__item">
+                Udemy (07.2021 - 10.2021)
+                <ul class="udemy__list">
+                  <li class="udemy__item">Web-developer 2021</li>
+                  <li class="udemy__item">JavaScript + React</li>
+                </ul>
+              </li>
+              <li class="courses__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+          </li>
+          <li class="experience__item">
+            Projects:
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a href="https://github.com/Parxommm/632427-cat-energy-22">Cat Energy</a>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/Parxommm/632427-keksobooking-23">KeksoBooking</a>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/Parxommm/Staff-bonuses_app">React App</a>
+              </li>
+            </ul>
+          </li>
+          <li class="experience__item">
+            Education:
+            <p class="education__text"> Belarusian-Russian University, Mogilev (2010-2015) - Engineer</p>
+          </li>
+        </ul>
+      </section>
+      <section class="languages" id="languages">
+        <h2 class="languages__title">
+          Languages:
+        </h2>
+        <ul class="languages__list">
+          <li class="languages__item">Russian - Native</li>
+          <li class="languages__item">English A1 (now I am studying English at A2 level at Streamline school)</li>
+        </ul>
+      </section>
     </div>
   </main>
 
